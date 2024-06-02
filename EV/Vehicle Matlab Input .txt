@@ -1,0 +1,13 @@
+Vehicle Type:Car
+Vehicle Size:1275kg
+Number of Passengers:3
+Performance Metric:Range (km) - Hwy (or Mwy),
+Payload:0 kg
+Regen Braking:OFF
+Air Conditioner:OFF
+Motor Size:110kW
+Battery Size:62.86AH
+Tire Size:205/55/R16
+BatteryVoltage:300v
+DragCoefficient:0.3
+FrontalArea:2

@@ -1,0 +1,10 @@
+Vehicle Type:Bike
+Range City:91
+Range Hwy:0
+Top Speed (0% grade):137
+Top Speed (x% grade):0
+Time (0-100 kph):0
+Time 0.4 km:0
+Time (50-80 kph):0
+Regen Braking:0
+Total Distance:9

@@ -1,0 +1,12 @@
+Vehicle Size:1275kg
+Number of Passengers:2
+Performance Metric:Range (km) - City
+Payload:0 kg
+Regen Braking:OFF
+Air Conditioner:OFF
+Motor Size:15 kW
+Battery Size:15 kWh
+Tire Size:145/80/R13
+Battery Voltage:300 V
+Drag Coefficient:0.3
+Frontal Area:2

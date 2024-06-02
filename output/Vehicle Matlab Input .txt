@@ -1,0 +1,13 @@
+Vehicle Type:Rickshaw
+Vehicle Size:180kg
+Number of Passengers:4
+Performance Metric:Range (km) - City
+Payload:1 kg
+Regen Braking:OFF
+
+Motor Size:11 kW
+Battery Size:5 kWh
+Tire Size:120/70/R12
+Battery Voltage:72 V
+Drag Coefficient:0.5
+Frontal Area:1.5

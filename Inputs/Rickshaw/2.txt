@@ -1,0 +1,12 @@
+Vehicle Size:298kg
+Number of Passengers:4
+Performance Metric:Range (km) - City,Top Speed (kph) 0% grade
+Payload:0 kg
+Regen Braking:OFF
+
+Motor Size:10 kW
+Battery Size:0.25 kWh
+Tire Size:120/70/R12
+Battery Voltage:48 V
+Drag Coefficient:0.9
+Frontal Area:2
