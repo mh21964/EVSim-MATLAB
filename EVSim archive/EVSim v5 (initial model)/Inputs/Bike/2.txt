@@ -1,0 +1,12 @@
+Vehicle Size:96 kg
+Number of Passengers:1
+Performance Metric:Range (km) - City,Top Speed (kph) 0% grade,Time (sec) 0 - 100 kph
+Payload:14 kg
+Regen Braking:OFF
+
+Motor Size:10 kW
+Battery Size:3 kWh
+Tire Size:80/100/R18
+Battery Voltage:48 V
+Drag Coefficient:0.6
+Frontal Area:0.8

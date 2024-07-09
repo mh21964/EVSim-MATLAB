@@ -1,0 +1,12 @@
+Vehicle Size:180kg
+Number of Passengers:4
+Performance Metric:Range (km) - City,Range (km) - Hwy (or Mwy)
+Payload:25 kg
+Regen Braking:OFF
+
+Motor Size:45 kW
+Battery Size:2 kWh
+Tire Size:120/70/R12
+Battery Voltage:48 V
+Drag Coefficient:0.9
+Frontal Area:1.5
