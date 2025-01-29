@@ -1,0 +1,172 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1551418667" file="D:\EV4\EVSim_Final.prj" location="D:\EV4" name="EVSim_Final" preferred-package-location="D:\EV4\EVSim_Final\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>EVSim_final</param.appname>
+    <param.icon>${PROJECT_ROOT}\EVSim_Final_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\EVSim_Final_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\EVSim_Final_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\EVSim_Final_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\EVSim_Final_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>EVSim_Team</param.authnamewatermark>
+    <param.email />
+    <param.company>EVSim_Team</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>D:\image-removebg.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\EVSim_Team\EVSim_final\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\EVSim_Final\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\EVSim_Final\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\EVSim_Final\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\EVSim_Final</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.email />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\SaveData.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\four.mlapp</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\three.mlapp</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\two.mlapp</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\data.mat</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\gui.mlapp</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\2.jpg</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\background.jpg</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\background2.jpg</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\bike.jpeg</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\black.PNG</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\car.jpg</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\images\rickshaw.jpeg</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\PerformanceMetric.csv</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\RangeCal.m</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\RegenB.m</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\Time_sec1.m</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\Time_sec2.m</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\Time_sec3.m</file>
+      <file>${PROJECT_ROOT}\EVSim\EV\main\TopSpeed.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\EVSim_Final\for_testing" name="readme.txt" optional="true">D:\EV4\EVSim_Final\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\EVSim_Final\for_testing" name="EVSim_final.exe" optional="false">D:\EV4\EVSim_Final\for_testing\EVSim_final.exe</file>
+      <file location="${PROJECT_ROOT}\EVSim_Final\for_testing" name="splash.png" optional="false">D:\EV4\EVSim_Final\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>H:\Uni crap\MATLAb</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
